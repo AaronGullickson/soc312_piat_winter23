@@ -11,8 +11,6 @@ library(mice)
 pew <- read_csv(here("input","pew_core_trends",
                      "Jan 25-Feb 8, 2021 - Core Trends Survey - CSV.csv"))
 
-
-
 # Clean data --------------------------------------------------------------
 
 pew <- pew |>
