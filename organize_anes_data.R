@@ -37,5 +37,5 @@ anes <- complete(mice(anes, 1))
 
 # Save data ---------------------------------------------------------------
 
-save(anes, file="anes.RData")
+save(anes, file=here("output","anes.RData"))
 
